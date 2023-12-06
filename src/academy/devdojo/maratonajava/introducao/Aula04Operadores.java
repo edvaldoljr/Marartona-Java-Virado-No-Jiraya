@@ -28,8 +28,29 @@ public class Aula04Operadores {
 
         boolean isDezIgualVinte = 10 == 20;
         System.out.println(isDezIgualVinte);
-        
+
         boolean isDezDiferenteVinte = 10 != 20;
         System.out.println(isDezDiferenteVinte);
+
+        // &&(AND) ||(OR) !(NEGATION)
+        int idade = 35;
+        float salario = 3500F;
+        boolean isDentroDaLei = idade > 18 && salario > 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+
+        System.out.println("isDentroDaLei: " + isDentroDaLei);
+        System.out.println("isDentroDaLeiMenorQueTrinta: " + isDentroDaLeiMenorQueTrinta);
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 10000;
+
+        float valorPlaystation = 5000F;
+        boolean isPlaystationCincoCompravel = valorTotalContaCorrente >= valorPlaystation || valorTotalContaPoupanca >= valorPlaystation;
+
+        if (isPlaystationCincoCompravel == true) {
+            System.out.println("limite disponivel");
+        } else {
+            System.out.println("Limite indisponivel");
+        }
     }
 }
