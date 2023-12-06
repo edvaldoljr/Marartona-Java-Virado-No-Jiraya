@@ -5,9 +5,9 @@ public class Aula02TiposPrimitivos {
 
         //Existem 8 tipos primitivos: int, double, float, char, byte, short, long, boolean
         int idade = 10;
-        long numeroGrande = 100000;
+        long numeroGrande = 100000L;
         double salarioDouble = 2000;
-        float salarioFlout = 2500;
+        float salarioFlout = 2500.0F;
         byte idadeByte = 10;
         short idadeShort = 10;
         boolean verdadeira = true;
