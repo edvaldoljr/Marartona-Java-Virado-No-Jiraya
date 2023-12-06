@@ -14,5 +14,9 @@ public class Aula04Operadores {
         System.out.println(numero02 + numero01 + " valor " + (numero01 + numero02));
         System.out.println(numero02 + numero01 + " valor " + numero01 + numero02);
         System.out.println(resultado);
+
+        // Operador de resto
+        int resto = 20 % 2;
+        System.out.println(resto);
     }
 }
