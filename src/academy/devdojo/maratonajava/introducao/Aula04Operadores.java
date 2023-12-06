@@ -18,5 +18,18 @@ public class Aula04Operadores {
         // Operador de resto
         int resto = 20 % 2;
         System.out.println(resto);
+
+        // Operadores lógicos de comparação, sempre irá trazer valores lógico < > <= >= == !=
+        boolean isDezMaiorQueVinte = 10 > 20;
+        System.out.println(isDezMaiorQueVinte);
+
+        boolean isDezMenorQueVinte = 10 < 20;
+        System.out.println(isDezMenorQueVinte);
+
+        boolean isDezIgualVinte = 10 == 20;
+        System.out.println(isDezIgualVinte);
+        
+        boolean isDezDiferenteVinte = 10 != 20;
+        System.out.println(isDezDiferenteVinte);
     }
 }
